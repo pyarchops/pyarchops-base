@@ -15,6 +15,9 @@ build:
     refs:
       - branches
       - tags
+  except:
+    - schedules
+
 
 build:on-schedule:
   script:
