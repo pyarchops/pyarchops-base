@@ -8,7 +8,7 @@ pyArchOps - pyarchops/base docker image
 
 
 pyarchops/base docker image suitable for tests.
-This image is used by the test helpers in pyarchops/helpers.
+This image is used by the test helpers in `pyArchOps.helpers <https://github.com/pyarchops/helpers>`
 
 
 * Free software: MIT license
@@ -18,7 +18,7 @@ This image is used by the test helpers in pyarchops/helpers.
 Features
 --------
 
-* pyarchops
+* docker image with ssh enabled suitable for ansible based provisioning tests
 
 
 Usage
@@ -26,8 +26,7 @@ Usage
 
 .. code-block:: console
 
-    $ docker pull image
-
+    $ docker pull image registry.gitlab.com/pyarchops/pyarchops-base:latest
 
 
 Credits
