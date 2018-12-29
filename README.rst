@@ -3,8 +3,8 @@ pyArchOps - pyarchops/base docker image
 ==========================================
 
 
-.. image:: https://img.shields.io/gitlab/pipeline/pyarchops/pyarchops/next-release.svg
-        :target: https://gitlab.com/pyarchops/pyarchops/pipelines
+.. image:: https://img.shields.io/gitlab/pipeline/pyarchops/pyarchops-base/next-release.svg
+        :target: https://gitlab.com/pyarchops/pyarchops-base/pipelines
 
 
 pyarchops/base docker image suitable for tests.
