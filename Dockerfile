@@ -1,4 +1,4 @@
-FROM base/archlinux
+FROM archlinux/base
 RUN pacman -Sy && pacman -Su --noconfirm docker ansible systemd systemd-sysvcompat openssh bash sudo && pacman -Scc --noconfirm
 RUN echo 'PermitEmptyPasswords yes' >> /etc/ssh/sshd_config
 RUN sed -i "s/PermitRootLogin without-password/PermitRootLogin yes/" /etc/ssh/sshd_config
